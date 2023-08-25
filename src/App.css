@@ -1,38 +1,107 @@
-.App {
+
+/* App.css */
+
+ 
+
+.container {
+
+  max-width: 400px;
+
+  margin: 0 auto;
+
+  padding: 20px;
+
+  border: 1px solid #160895;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  background-color: #77d9f4;
+}
+
+ 
+
+h1 {
+
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+
+.input-group {
+
+  margin-bottom: 60px;
+  width: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
+
+.form-control {
+
+  border-radius: 25px;
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+
+.btn-primary {
+
+  border-radius: 4px;
+
+}
+
+ 
+
+.list-group {
+
+  padding: 0;
+
+}
+
+ 
+
+.list-group-item {
+
   display: flex;
-  flex-direction: column;
+
+  justify-content: space-between;
+
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  padding: 8px 12px;
+
+  border: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+ 
+
+.btn-danger {
+
+  border-radius: 4px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+
+.btn-sm {
+
+  font-size: 12px;
+
+  padding: 3px 6px;
+
+  margin-left: 5px;
+
+}
+
+ 
+
+/* Hover effect for list items */
+
+.list-group-item:hover {
+
+  background-color: #77d9f4;
+
 }
